@@ -18,8 +18,8 @@ def sum_square_diff(num):
 
 
 def sum_square_diff_formula(n):
-    return ((((n**2))*((n+1)**2))//4)-((n*(n+1)*(2*n+1))/6)
+    return ((((n**2))*((n+1)**2))//4)-((n*(n+1)*(2*n+1))//6)
 
 n=3
-print(sum_square_diff(n))
+print(sum_square_diff_formula(n))
 print(sum_square_diff(n))
